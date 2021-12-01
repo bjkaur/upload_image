@@ -1,0 +1,6 @@
+<%= form_for [@upload] do |f| %>
+  Title : <%= f.text_field :title %><br />
+  Description : <%= f.text_field :description %><br />
+  Upload : <%= f.file_field :image %><br />
+  <%= f.submit %>
+<% end %>
